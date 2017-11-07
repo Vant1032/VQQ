@@ -1,0 +1,18 @@
+#nickName:hover{
+
+}
+
+#signature{
+    -fx-padding: 3px;
+    -fx-border-width: 0px;
+}
+#avatar:hover{
+    -fx-border-color: #0e96fe;
+    -fx-border-width: 50px;
+    -fx-border-style: solid;
+}
+
+#setting{
+    -fx-image: url("../img/设置.png");
+
+}
