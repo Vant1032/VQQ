@@ -1,9 +1,8 @@
-package Client.viewmodel;
+package client.viewmodel;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
@@ -18,7 +17,7 @@ public class MainUI {
 
     public MainUI() {
         mainUIStage = new Stage();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("Client/fxml/Main.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("client/fxml/Main.fxml"));
         Parent parent = null;
         try {
             parent = fxmlLoader.load();

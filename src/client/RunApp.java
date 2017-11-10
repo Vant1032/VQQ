@@ -1,6 +1,6 @@
-package Client;
+package client;
 
-import Client.viewmodel.MainUI;
+import client.viewmodel.MainUI;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
