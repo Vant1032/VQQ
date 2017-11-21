@@ -3,10 +3,11 @@ package client.logic;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.InetSocketAddress;
 import java.net.Socket;
 
 /**
+ * 从socket获得的流是没有缓冲效果的
+ *
  * @author Vant
  * @version 2017/11/8 上午 9:40
  */
